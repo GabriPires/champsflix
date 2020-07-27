@@ -15,16 +15,14 @@ function App() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription="Descrição aqui"
+        videoDescription="Sem perdoar. Sem esquecer. Conheça a história dos irmãos divididos pela lâmina."
       />
 
       <Carousel ignoreFirstVideo category={dadosIniciais.categorias[0]} />
 
-      <Carousel ignoreFirstVideo category={dadosIniciais.categorias[1]} />
+      <Carousel category={dadosIniciais.categorias[1]} />
 
-      <Carousel ignoreFirstVideo category={dadosIniciais.categorias[2]} />
-
-      <Carousel ignoreFirstVideo category={dadosIniciais.categorias[3]} />
+      <Carousel category={dadosIniciais.categorias[2]} />
 
       <Footer />
     </div>
