@@ -1,13 +1,18 @@
 import React from 'react';
 
-import logo from '../../assets/logo.png';
+import './styles.css';
 
-// import { Container } from './styles';
+import logo from '../../assets/logo.png';
 
 function Menu() {
   return (
-    <nav>
-      <img src={logo} alt="Champsflix" />
+    <nav className="Menu">
+      <a href="/">
+        <img className="Logo" src={logo} alt="Champsflix" />
+      </a>
+      <ButtonLink href="/" className="ButtonLink">
+        Novo vídeo
+      </ButtonLink>
     </nav>
   );
 }
