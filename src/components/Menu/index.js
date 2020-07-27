@@ -3,7 +3,7 @@ import React from 'react';
 // import { Container } from './styles';
 
 function Menu() {
-  return <div />;
+  return <header>Champsflix</header>;
 }
 
 export default Menu;
