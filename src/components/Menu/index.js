@@ -1,8 +1,9 @@
 import React from 'react';
+import logo from '../../assets/logo.png';
+
+import ButtonLink from './components/ButtonLink';
 
 import './styles.css';
-
-import logo from '../../assets/logo.png';
 
 function Menu() {
   return (

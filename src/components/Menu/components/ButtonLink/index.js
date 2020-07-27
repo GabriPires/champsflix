@@ -2,10 +2,10 @@ import React from 'react';
 
 // import { Container } from './styles';
 
-function ButtonLink() {
+function ButtonLink(props) {
   return (
-    <a className="" href="">
-      A
+    <a className={props.className} href={props.href}>
+      {props.children}
     </a>
   );
 }
