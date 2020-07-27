@@ -6,7 +6,6 @@ function App() {
   return (
     <div>
       <Menu />
-      <p>Hello world</p>
     </div>
   );
 }
