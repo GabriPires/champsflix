@@ -11,8 +11,12 @@ function Footer() {
         />
       </a>
       <p>
-        Criado com ❤️ pelo <a href="http://github.com/GabriPires">Champs</a>{' '}
-        durante a <a href="https://www.alura.com.br/">Imersão React da Alura</a>
+        Criado com{' '}
+        <span role="img" aria-label="Coração vermelho">
+          ❤️
+        </span>{' '}
+        pelo <a href="http://github.com/GabriPires">Champs</a> durante a{' '}
+        <a href="https://www.alura.com.br/">Imersão React da Alura</a>
       </p>
     </FooterBase>
   );
